@@ -48,3 +48,7 @@ AttributeError: 'int' object has no attribute 'sort'
     print('id de las personas con mas edad:', lista3)
     return lista
 	
+
+
+import doctest
+doctest.testmod() 
